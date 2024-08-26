@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+ 
+main {
+    width: 1366px;
+    height: 2000px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+ 
+header {
+    width: 1366px;
+    height: 200px;
+    text-align: center;
+    background-color: aquamarine;
+}
+ 
+nav {
+    width: 1366px;
+    height: 50px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+ 
+nav a {
+    color: rgb(252, 251, 249);
+    text-decoration: none;
+    padding: 15px;
+    transition: 1s;
+ 
+ 
+}
+ 
+nav a:hover {
+    background-color: rgb(41, 196, 178);
+    transform: scale(1.2);
+}
+ 
+section {
+    width: 1366px;
+    height: 1500px;
+ 
+    background-image: url(../img/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ 
+section .personaje {
+    width: 1300px;
+    height: 350px;
+ 
+    margin-left: 33px;
+    margin-top: 20px;
+    float: left;
+}
+ 
+.personaje .foto {
+    width: 400px;
+    height: 350px;
+ 
+    float: left;
+    text-align: center;
+    margin-left: 33px;
+    border-bottom: rgba(3, 115, 243, 0.721) 4px solid;
+ 
+}
+ 
+.foto img {
+    width: 100%;
+}
+ 
+.personaje .texto {
+    width: 800px;
+    height: 350px;
+    background-color: rgba(0, 0, 255, 0.115);
+ 
+    float: left;
+    margin-left: 33px;
+    padding: 20px;
+ 
+ 
+}
+ 
+footer {
+    width: 1366px;
+    height: 250px;
+    background-color: rgb(44, 24, 63);
+}
